@@ -43,7 +43,7 @@ const Registrar = () => {
 
     try {
       const { data } = await clienteAxios.post(`/api/usuarios`,
-      {nombre, tipo, email, password} )
+      {nombre, email, password} )
 
       setAlerta({
         msg: data.msg,
@@ -51,7 +51,6 @@ const Registrar = () => {
       })
 
       setNombre('')
-      setTipo('')
       setEmail('')
       setPassword('')
       setRepetirPassword('')
