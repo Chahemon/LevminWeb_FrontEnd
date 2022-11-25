@@ -7,7 +7,6 @@ const Registrar = () => {
 
   const [ nombre, setNombre ] = useState('')
   const [ email, setEmail ] = useState('')
-  const [ tipo, setTipo ] = useState('Trabajador')
   const [ password, setPassword ] = useState('')
   const [ repetirPassword, setRepetirPassword ] = useState('')
   const [ alerta, setAlerta ] = useState({})
@@ -95,23 +94,6 @@ const Registrar = () => {
               value={nombre}
               onChange={ e => setNombre( e.target.value ) }
           />
-        </div>
-        <div className="my-5">
-          <label 
-              className="uppercase text-gray-600 block text-xl font-bold"
-              htmlFor="tipo"
-          >Tipo Usuario</label>
-          <select name="select"
-                  id="tipo"
-                  type="text"
-                  placeholder="Selecciona el Tipo de Usuario"
-                  className="w-full mt-3 p-3 border rounded-xl bg-gray-50"
-                  value={tipo}
-                  onChange={ e => setTipo( e.target.value ) } >
-            <option onChange={ e => setTipo( e.target.value ) } >Trabajador</option>
-            <option onChange={ e => setTipo( e.target.value ) } >Estudiante</option>
-            <option onChange={ e => setTipo( e.target.value ) } >Adulto Mayor</option>
-          </select>
         </div>
         <div className="my-5">
           <label 
