@@ -79,7 +79,7 @@ const OlvidePassword = () => {
 
         </form>
 
-        <nav className="lg:flex lg:justify-between">
+        <nav className="lg:flex lg:justify-between mb-24">
             <Link
                 className="block text-center my-5 text-slate-500 uppercase text-sm"
                 to="/"
@@ -91,6 +91,7 @@ const OlvidePassword = () => {
             >¿No tienes una cuenta? Regístrate</Link>
         </nav>
       </div>
+
     </main>
   )
 }

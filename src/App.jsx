@@ -23,6 +23,7 @@ function App() {
             <Route path="confirmar/:id" element={<ConfirmarCuenta/>} />
           </Route>
         </Routes>
+        
     </BrowserRouter>
   )
 }

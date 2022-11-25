@@ -17,12 +17,12 @@ const Header = () => {
             <div className='flex items-center gap-4 '>
                 <Link 
                     to="/registrar"
-                    className='hover:from-blue-500 hover:to-blue-800 font-bold uppercase ml-4 mr-4 bg-gradient-to-r from-blue-500 to-blue-500 rounded-md p-3 text-lg text-white transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300'
-                >Registrar</Link>
+                    className='hover:from-blue-500 hover:to-blue-800 font-bold uppercase ml-2 mr-2 bg-gradient-to-r from-blue-500 to-blue-500 rounded-md p-3 text-lg text-white transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300'
+                >Registrarse</Link>
                 <a 
-                    href="www.google.com"
+                    href="https://download1526.mediafire.com/b56danmzsyfg/vov9z4hemm2qh2m/Perfinance.exe"
                     target="_blank"
-                    className='hover:from-blue-500 hover:to-blue-800 font-bold uppercase ml-4 mr-4 bg-gradient-to-r from-blue-500 to-blue-500 rounded-md p-3 text-lg text-white transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 '
+                    className='hover:from-blue-500 hover:to-blue-800 font-bold uppercase ml-2 mr-2 bg-gradient-to-r from-blue-500 to-blue-500 rounded-md p-3 text-lg text-white transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 '
                 >Descargar</a>
             </div>
             
