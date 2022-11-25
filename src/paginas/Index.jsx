@@ -14,7 +14,7 @@ const Index = () => {
                 <div class="opacity-5 h-6 mt-3 w-30 bg-gradient-to-r from-white to-white " ></div>
                 <body className='text-white font-bold ml-4 mr-4 text-xl mt-5 mb-12'>Una aplicacion sencilla que permite administrar tus finanzas de una manera eficiente.</body>
                 <a 
-                    href="https://download855.mediafire.com/co53tjhc02cg/y3xjb1gr76wa3hs/Perfinance.exe"
+                    href="https://download1326.mediafire.com/ktesvfdbsixg/oy1za1436l475xk/Perfinance.exe"
                     target="_blank"
                     className='hover:from-blue-500 hover:to-blue-800 font-bold uppercase ml-4 mr-4 bg-gradient-to-r from-blue-500 to-blue-500 rounded-md p-3 text-lg text-white transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 '
                 >Descargar</a>
