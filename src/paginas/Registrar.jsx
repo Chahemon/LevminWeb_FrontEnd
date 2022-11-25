@@ -14,7 +14,7 @@ const Registrar = () => {
   const handleSubmit = async e => {
     e.preventDefault()
 
-    if ([nombre, tipo, email, password, repetirPassword].includes('')){
+    if ([nombre, email, password, repetirPassword].includes('')){
         setAlerta({
             msg: 'Todos los campos son obligatorios',
             error: true
