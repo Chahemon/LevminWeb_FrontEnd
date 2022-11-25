@@ -14,7 +14,7 @@ const ConfirmarCuenta = () => {
   useEffect(() => {
     const confirmarCuenta = async () => {
       try {
-        const url = `/usuarios/confirmar/${id}`
+        const url = `/api/usuarios/confirmar/${id}`
         const { data } = await clienteAxios( url )
 
         setAlerta({ 
